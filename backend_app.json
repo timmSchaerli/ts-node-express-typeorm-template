@@ -1,0 +1,22 @@
+{
+ "apps": [
+  {
+   "name": "backend-app-dev",
+   "script": "npm",
+   "args": "run start-dev",
+   "time": true
+  },
+  {
+   "name": "backend-app-stage",
+   "script": "npm",
+   "args": "run start-stage",
+   "time": true
+  },
+  {
+   "name": "backend-app-prod",
+   "script": "npm",
+   "args": "run start-prod",
+   "time": true
+  }
+ ]
+}
